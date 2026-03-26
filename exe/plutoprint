@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require "plutoprint"
+require "plutoprint/cli"
+Plutoprint::CLI.start(ARGV)

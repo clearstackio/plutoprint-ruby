@@ -1,0 +1,38 @@
+# Bundle
+Gemfile.lock
+vendor/bundle/
+.bundle/
+
+# C extension build artifacts
+tmp/
+lib/plutoprint/plutoprint.bundle
+lib/plutoprint/plutoprint.so
+lib/plutoprint/plutoprint.o
+*.o
+*.so
+*.bundle
+
+# RSpec
+spec/examples.txt
+coverage/
+
+# Editor
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# AI agent working files
+docs/superpowers/
+
+# Tool versions (developer-specific)
+mise.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gem build
+*.gem
+pkg/
